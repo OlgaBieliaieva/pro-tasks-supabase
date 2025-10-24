@@ -1,7 +1,7 @@
 1. створено базові налаштування проєкту
 2. ініціалізована база даних
-3. !!! налаштувати політики доступу до бази даних
-4. 
+3. налаштувані політики доступу до бази даних
+4. додано supabase auth включаючи RLS policies
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
