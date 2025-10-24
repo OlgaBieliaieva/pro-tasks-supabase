@@ -137,17 +137,17 @@ export default function Home() {
       </button>
 
       {projects.length > 0 ? (
-        <ul className="grid gap-4">
+        <ul className="flex flex-wrap gap-4">
           {projects.map((project) => (
             <li
               key={project.id}
-              className="border p-4 rounded-xl shadow-sm bg-white flex justify-between items-start"
+              className="border p-4 rounded-xl shadow-sm bg-white w-72 flex flex-col justify-between"
             >
               <div>
                 <h2 className="text-xl font-semibold">{project.name}</h2>
                 <p className="text-gray-600">{project.description}</p>
               </div>
-              <div>
+              <div className="mt-4 flex justify-between">
                 <button
                   className="text-blue-600 underline"
                   onClick={() => openEditModal(project)}
